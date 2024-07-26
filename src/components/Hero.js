@@ -9,10 +9,10 @@ const Hero = () => {
           Modern Interior Design Studio
         </h1>
         <div className="pt-32 pb-32  pl-40 pr-24">
-          <button className=" text-lg mr-4 px-8 py-3 text-black border rounded-full bg-yellow-500">
+          <button className=" text-lg mr-4 px-8 py-3 text-black border rounded-full bg-yellow-500 hover:bg-yellow-400">
             Shop Now
           </button>
-          <button className=" text-lg mr-4 px-10 py-3 text-white border rounded-full">
+          <button className=" text-lg mr-4 px-10 py-3 text-white border rounded-full hover:bg-emerald-800">
             Explore
           </button>
         </div>

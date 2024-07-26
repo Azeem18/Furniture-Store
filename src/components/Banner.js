@@ -22,7 +22,7 @@ const Banner = () => {
         <img className=" w-48 h-72 ml-14 -mt-14" src={chair1} alt="Chair"></img>
         <p className=" text-center mt-9 font-bold">Nordic Chair</p>
         <p className=" text-center font-bold">$50.00</p>
-        <button className=" ml-36 mt-8 border rounded-full bg-gray-900 text-white px-2 py-0.5 text-3xl">
+        <button className=" ml-36 mt-8 border rounded-full bg-gray-900 text-white w-11 h-8 pb-11 text-3xl hover:bg-gray-600">
           +
         </button>
         <div className=" absolute top-12 rounded-3xl -z-20 h-80 w-80 bg-gray-300"></div>
