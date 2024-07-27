@@ -9,7 +9,7 @@ import matrix2 from "../img/matrix2.png";
 
 const About = () => {
   return (
-    <div className=" flex ml-36 mr-20 my-36">
+    <div className=" flex ml-36 mr-20 mt-36">
       <div className=" w-3/5">
         <h1 className=" text-3xl font-semibold">Why Choose Us</h1>
         <p className="text-lg mt-7">
