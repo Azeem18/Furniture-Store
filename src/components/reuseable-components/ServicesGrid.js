@@ -1,6 +1,5 @@
 import React from "react";
 import dot from "../../img/dot.png";
-
 const ServicesGrid = (props) => {
   return (
     <div className="flex w-8/12">
