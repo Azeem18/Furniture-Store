@@ -1,17 +1,16 @@
 import React from "react";
 import { useState } from "react";
-import reviewData from "../data";
+import reviewData from "../testimonialData";
 
 const Testimonial = () => {
   const prev = "<";
   const next = ">";
   const [reviewCount, setReviewCount] = useState(0);
-  const dots = [0, 1, 2, 3, 4, 5, 6, 7];
-  const dotButtons = dots.map((val) => {
+  const dotButtons = reviewData.map((val, index) => {
     return (
       <button
         className={`border bg-gray-400 mx-1.5 rounded-full h-3 w-3 ${
-          val === reviewCount ? "bg-teal-800" : ""
+          index === reviewCount ? "bg-teal-800" : ""
         }`}
       ></button>
     );
