@@ -1,15 +1,15 @@
-import blog1 from "./img/blog1.png";
-import blog2 from "./img/blog2.png";
-import blog3 from "./img/blog3.png";
-import blog4 from "./img/blog4.png";
-import blog5 from "./img/blog5.png";
-import blog6 from "./img/blog6.png";
-import blog7 from "./img/blog7.png";
-import blog8 from "./img/blog8.png";
-import blog9 from "./img/blog9.png";
-import blog10 from "./img/blog10.png";
-import blog11 from "./img/blog11.png";
-import blog12 from "./img/blog12.png";
+import blog1 from "./img/blog/blog1.png";
+import blog2 from "./img/blog/blog2.png";
+import blog3 from "./img/blog/blog3.png";
+import blog4 from "./img/blog/blog4.png";
+import blog5 from "./img/blog/blog5.png";
+import blog6 from "./img/blog/blog6.png";
+import blog7 from "./img/blog/blog7.png";
+import blog8 from "./img/blog/blog8.png";
+import blog9 from "./img/blog/blog9.png";
+import blog10 from "./img/blog/blog10.png";
+import blog11 from "./img/blog/blog11.png";
+import blog12 from "./img/blog/blog12.png";
 
 const blogdata = [
   {

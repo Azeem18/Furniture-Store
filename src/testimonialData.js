@@ -1,11 +1,11 @@
-import person1 from "./img/person1.png";
-import person2 from "./img/person2.png";
-import person3 from "./img/person3.png";
-import person4 from "./img/person4.png";
-import person5 from "./img/person5.png";
-import person6 from "./img/person6.png";
-import person7 from "./img/person7.png";
-import person8 from "./img/person8.png";
+import person1 from "./img/persons/person1.png";
+import person2 from "./img/persons/person2.png";
+import person3 from "./img/persons/person3.png";
+import person4 from "./img/persons/person4.png";
+import person5 from "./img/persons/person5.png";
+import person6 from "./img/persons/person6.png";
+import person7 from "./img/persons/person7.png";
+import person8 from "./img/persons/person8.png";
 
 const reviewData = [
   {

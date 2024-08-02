@@ -1,6 +1,6 @@
 import React from "react";
-import sofaImg from "../img/sofa1.png";
-import matrixImg from "../img/matrix.png";
+import sofaImg from "../img/furniture/sofa1.png";
+import matrixImg from "../img/matrices/matrix.png";
 const Hero = () => {
   return (
     <div className=" relative bg-emerald-900 flex">

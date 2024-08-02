@@ -31,7 +31,7 @@ const Blog = () => {
     );
   });
   return (
-    <div className="ml-60 my-20">
+    <div className="ml-60 pt-20 pb-36">
       <div className=" flex justify-between ">
         <h1 className=" text-3xl font-bold text-stone-800">Recent Blog</h1>
         <button

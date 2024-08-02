@@ -1,11 +1,11 @@
 import React from "react";
 import AboutGrid from "../components/reuseable-components/AboutGrid";
-import icon1 from "../img/icon1.png";
-import icon2 from "../img/icon2.png";
-import icon3 from "../img/icon3.png";
-import icon4 from "../img/icon4.png";
-import frame1 from "../img/frame1.png";
-import matrix2 from "../img/matrix2.png";
+import icon1 from "../img/icons/icon1.png";
+import icon2 from "../img/icons/icon2.png";
+import icon3 from "../img/icons/icon3.png";
+import icon4 from "../img/icons/icon4.png";
+import frame1 from "../img/frames/frame1.png";
+import matrix2 from "../img/matrices/matrix2.png";
 
 const About = () => {
   return (

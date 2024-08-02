@@ -1,7 +1,7 @@
 import React from "react";
-import chair1 from "../img/chair1.png";
-import chair2 from "../img/chair2.png";
-import chair3 from "../img/chair3.png";
+import chair1 from "../img/furniture/chair1.png";
+import chair2 from "../img/furniture/chair2.png";
+import chair3 from "../img/furniture/chair3.png";
 
 const Banner = () => {
   return (
