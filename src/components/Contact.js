@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
       )}
       <img
-        className=" absolute bottom-1 right-60 h-96"
+        className=" absolute -top-52 right-40 h-[460px]"
         src={chair}
         alt="Chair"
       ></img>
