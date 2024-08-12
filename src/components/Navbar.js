@@ -23,7 +23,7 @@ const Navbar = () => {
       <p className=" text-white text-2xl pl-32">Furni.</p>
       <div>
         <nav className="w-1/2">
-          <ul className=" flex ml-64">{navLinks}</ul>
+          <ul className=" flex ml-80">{navLinks}</ul>
         </nav>
       </div>
       <div className=" flex mr-80 ml-28">
