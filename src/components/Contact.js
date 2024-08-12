@@ -37,21 +37,21 @@ const Contact = () => {
     return reg.test(name);
   };
   return (
-    <div className=" relative ml-36 mr-20 mt-28 pb-20">
+    <div className=" relative ml-36 mr-20 mt-28 pb-12">
       <div className=" flex space-x-4">
         <MdOutlineMailOutline className=" text-2xl mt-1.5" />
         <p className=" text-2xl font-semibold">Subscribe to Newsletter</p>
       </div>
       <form className=" flex mt-5" onSubmit={handleSubmit}>
         <input
-          className=" w-80 h-12 pl-5 text-xl placeholder-gray-800 placeholder:text-lg border-gray-500 border rounded-lg"
+          className=" w-60 h-12 pl-5 text-xl placeholder-gray-800 placeholder:text-lg border-gray-500 border rounded-lg"
           type="text"
           value={name}
           placeholder="Enter your name"
           onChange={(e) => setName(e.target.value)}
         ></input>
         <input
-          className=" w-80 h-12 pl-5 ml-5 text-xl placeholder-gray-800 placeholder:text-lg border-gray-500 border rounded-lg"
+          className=" w-60 h-12 pl-5 ml-5 text-xl placeholder-gray-800 placeholder:text-lg border-gray-500 border rounded-lg"
           type="email"
           value={email}
           placeholder="Enter your e-mail"
@@ -60,10 +60,10 @@ const Contact = () => {
         <button
           onClick={() => setIspopup(true)}
           type="submit"
-          className=" h-14 w-16 bg-teal-800 text-white rounded-lg
+          className=" h-12 w-14 bg-teal-800 text-white rounded-lg
           ml-4 hover:bg-teal-700 cursor-pointer"
         >
-          <CiLocationArrow1 className=" text-4xl ml-3" />
+          <CiLocationArrow1 className=" text-4xl ml-2" />
         </button>
       </form>
       {/* Popup code logic */}
@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
       )}
       <img
-        className=" absolute -top-52 right-40 h-[460px]"
+        className=" absolute -top-48 right-8 h-[370px] w-[420px]"
         src={chair}
         alt="Chair"
       ></img>
