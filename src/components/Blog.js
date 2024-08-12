@@ -6,19 +6,19 @@ const Blog = () => {
   const [allBlogs, setAllBlogs] = useState(false);
   const blogs = blogdata.map((value, index) => {
     return (
-      <div className=" mr-20">
+      <div className="mr-10">
         <a
           href={value.link}
           target="_blank"
           rel="noopener noreferrer" //It is used to prevent the new page from being able to access the window.opener property, which can be a security risk
         >
           <img
-            className=" h-64 w-96 mt-10 hover:opacity-60"
+            className=" h-[200px] w-[300px] mt-10 hover:opacity-60 rounded-lg"
             src={value.img}
             alt="Blog"
           ></img>
         </a>
-        <p className=" text-lg font-bold text-stone-800 mt-10 w-96">
+        <p className=" text-lg font-bold text-stone-800 mt-10 w-[300px]">
           {value.title}
         </p>
         <p>
@@ -31,12 +31,12 @@ const Blog = () => {
     );
   });
   return (
-    <div className="ml-60 pt-20 pb-36">
+    <div className="ml-32 pt-20 pb-36">
       <div className=" flex justify-between ">
         <h1 className=" text-3xl font-bold text-stone-800">Recent Blog</h1>
         <button
           onClick={() => setAllBlogs(true)}
-          className=" text-xl font-semibold underline mr-64"
+          className=" text-xl font-semibold underline mr-40"
         >
           View All Posts
         </button>
