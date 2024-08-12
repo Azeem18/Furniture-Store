@@ -9,7 +9,7 @@ const Testimonial = () => {
   const dotButtons = reviewData.map((val, index) => {
     return (
       <button
-        className={`border bg-gray-400 mx-1.5 rounded-full h-3 w-3 ${
+        className={`border bg-gray-400 mx-1.5 rounded-full h-2 w-2 ${
           index === reviewCount ? "bg-teal-800" : ""
         }`}
       ></button>
@@ -35,16 +35,16 @@ const Testimonial = () => {
       <div className=" flex mt-20 mb-16">
         <button
           onClick={() => togglereview("back")} //Call toggleReview() inside arrow function while using onClick handler to avoid error of useState hook infinite loop
-          className="ml-96 border rounded-full bg-gray-300 text-black w-11 h-8 pb-11 text-3xl hover:bg-gray-400"
+          className="ml-[150px] border rounded-full bg-gray-300 text-black w-14 h-8 pb-11 text-3xl hover:bg-gray-400"
         >
           {prev}
         </button>
-        <p className=" w-2/5 text-justify mx-32 -mt-10 text-lg">
+        <p className=" w-[800px] text-justify mx-[126px] -mt-10 text-lg">
           {reviewData[reviewCount].review}
         </p>
         <button
           onClick={() => togglereview("for")}
-          className=" mr-44 border rounded-full bg-teal-800 text-white w-11 h-8 pb-11 text-3xl hover:bg-teal-700"
+          className=" mr-[130px] border rounded-full bg-teal-800 text-white w-14 h-8 pb-11 text-3xl hover:bg-teal-700"
         >
           {next}
         </button>
