@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className=" relative bg-emerald-900 flex">
       <div className=" h-fit">
-        <h1 className=" text-5xl font-serif font-semibold text-white  pt-32  pl-40 pr-24 ">
+        <h1 className=" text-5xl font-serif font-semibold text-white  pt-32  pl-40 pr-24">
           Modern Interior Design Studio
         </h1>
         <div className="pt-32 pb-32  pl-40 pr-24">

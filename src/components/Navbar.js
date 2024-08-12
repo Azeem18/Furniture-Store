@@ -1,9 +1,10 @@
 import React from "react";
 import { IoPersonOutline } from "react-icons/io5";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+
 const Navbar = () => {
   const navData = {
-    cl: "pl-12 text-white transition-all duration-300 text-lg hover:text-slate-300",
+    cl: "ml-8 text-white transition-all duration-300 text-sm hover:text-slate-300 whitespace-nowrap", // whitespace-nowrap prevents word wrapping on new line
     hyp: ["#home", "#about", "#services", "#blog", "#contact"],
   };
   const text = ["Home", "About", "Services", "Blog", "Contact us"];
@@ -19,15 +20,15 @@ const Navbar = () => {
 
   return (
     <div className=" flex justify-between align-middle h-auto bg-emerald-900 pt-12 pb-6 ">
-      <p className=" text-white text-2xl pl-40">Furni.</p>
+      <p className=" text-white text-2xl pl-32">Furni.</p>
       <div>
-        <nav>
+        <nav className="w-1/2">
           <ul className=" flex ml-64">{navLinks}</ul>
         </nav>
       </div>
-      <div className=" flex pr-80">
-        <IoPersonOutline className="text-2xl text-white cursor-pointer hover:text-zinc-200" />
-        <AiOutlineShoppingCart className="text-2xl text-white ml-5 cursor-pointer  hover:text-zinc-200" />
+      <div className=" flex mr-80 ml-28">
+        <IoPersonOutline className="text-xl text-white cursor-pointer hover:text-zinc-200" />
+        <AiOutlineShoppingCart className="text-xl text-white ml-5 cursor-pointer  hover:text-zinc-200" />
       </div>
     </div>
   );
