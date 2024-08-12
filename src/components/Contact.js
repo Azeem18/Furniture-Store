@@ -68,11 +68,11 @@ const Contact = () => {
       </form>
       {/* Popup code logic */}
       {isPopup && (
-        <div className=" shadow-xl shadow-zinc-700 rounded-full flex flex-col items-center justify-center absolute bottom-40 left-96 w-4/12 h-60 bg-slate-800 ">
-          <p className=" text-lg px-10 text-justify text-white">{message}</p>
+        <div className=" shadow-xl shadow-zinc-700 rounded-lg flex flex-col items-center justify-center absolute bottom-40 left-72 w-4/12 h-[200px] bg-slate-800 ">
+          <p className=" text-sm px-10 text-justify text-white">{message}</p>
           <button
             onClick={() => setIspopup(false)}
-            className=" text-xl text-white mt-6 w-28 h-10 border rounded-lg border-black bg-slate-600 hover:bg-slate-700"
+            className=" text-[15px] text-white mt-6 w-28 h-10 border rounded-lg border-black bg-slate-600 hover:bg-slate-700"
           >
             Close
           </button>
