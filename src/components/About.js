@@ -9,14 +9,14 @@ import matrix2 from "../img/matrices/matrix2.png";
 
 const About = () => {
   return (
-    <div className=" flex ml-36 mr-20 mt-36">
-      <div className=" w-3/5">
+    <div className=" flex ml-32 mr-20 mt-48">
+      <div className=" w-[800px]">
         <h1 className=" text-3xl font-semibold">Why Choose Us</h1>
-        <p className="text-lg mt-7">
+        <p className="text-sm mt-7 text-justify">
           Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
           vivethe as it was for us to know what was to be done. the
         </p>
-        <div className=" grid grid-rows-2 grid-cols-2 gap-y-6 gap-x-6 mt-20">
+        <div className=" grid grid-rows-2 grid-cols-2 gap-y-10 gap-x-24 mt-20">
           <AboutGrid
             img={icon1}
             heading="Fast  & Free Shipping "
@@ -39,8 +39,12 @@ const About = () => {
           />
         </div>
       </div>
-      <div className=" z-10 relative ml-32">
-        <img className=" -mt-10 w-5/6 h-5/6" src={frame1} alt="frame"></img>
+      <div className=" z-10 relative ml-32 mr-10">
+        <img
+          className=" -mt-10 w-[900px] h-[700px]"
+          src={frame1}
+          alt="frame"
+        ></img>
         <img
           className=" absolute -top-14 -left-11 -z-10 h-44 w-64"
           src={matrix2}
