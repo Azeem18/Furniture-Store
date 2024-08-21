@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { scroller } from "react-scroll";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -12,10 +13,12 @@ import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page on refresh
-    if (window.location.pathname !== "/#home") {
-      window.history.replaceState(null, "", "/#home"); //To change path to /#home on refresh
-    }
+    // Scroll to the "home" section on page refresh
+    scroller.scrollTo("nav", {
+      duration: 800,
+      delay: 0,
+      smooth: "linear",
+    });
   }, []);
   return (
     <div className="App">

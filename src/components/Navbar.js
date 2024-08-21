@@ -1,25 +1,37 @@
 import React from "react";
 import { IoPersonOutline } from "react-icons/io5";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const navData = {
-    cl: "ml-8 text-white transition-all duration-300 text-sm hover:text-slate-300 whitespace-nowrap", // whitespace-nowrap prevents word wrapping on new line
-    hyp: ["#home", "#about", "#services", "#blog", "#contact"],
+    cl: "ml-8 text-white transition-all duration-300 text-sm hover:text-slate-300 whitespace-nowrap cursor-pointer", // whitespace-nowrap prevents word wrapping on new line
+    hyp: ["home", "about", "services", "blog", "contact"],
   };
   const text = ["Home", "About", "Services", "Blog", "Contact us"];
   const navLinks = text.map((data, index) => {
     return (
       <li key={index}>
-        <a key={index} className={navData.cl} href={navData.hyp[index]}>
+        <Link
+          key={index}
+          className={navData.cl}
+          to={navData.hyp[index]}
+          spy={true}
+          smooth="linear" //We can also use boolean value like smooth={true}
+          offset={-120}
+          duration={800}
+        >
           {data}
-        </a>
+        </Link>
       </li>
     );
   });
 
   return (
-    <div className=" flex justify-between align-middle h-auto bg-emerald-900 pt-12 pb-6 ">
+    <div
+      id="nav"
+      className=" flex justify-between align-middle h-auto bg-emerald-900 pt-12 pb-6 "
+    >
       <p className=" text-white text-2xl pl-32">Furni.</p>
       <div>
         <nav className="w-1/2">
