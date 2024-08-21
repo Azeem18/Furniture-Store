@@ -6,7 +6,7 @@ const Blog = () => {
   const [allBlogs, setAllBlogs] = useState(false);
   const blogs = blogdata.map((value, index) => {
     return (
-      <div className="mr-10">
+      <div id="blog" className="mr-10">
         <a
           href={value.link}
           target="_blank"

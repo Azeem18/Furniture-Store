@@ -37,7 +37,7 @@ const Contact = () => {
     return reg.test(name);
   };
   return (
-    <div className=" relative ml-36 mr-20 mt-28 pb-12">
+    <div id="contact" className=" relative ml-36 mr-20 mt-28 pb-12">
       <div className=" flex space-x-4">
         <MdOutlineMailOutline className=" text-2xl mt-1.5" />
         <p className=" text-2xl font-semibold">Subscribe to Newsletter</p>

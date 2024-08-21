@@ -12,7 +12,7 @@ import ServicesProd from "./reuseable-components/ServicesProd";
 const Services = () => {
   return (
     <>
-      <div className=" flex ml-36 mr-20 mt-28">
+      <div id="services" className=" flex ml-36 mr-20 mt-28">
         <div className="w-1/2">
           <img className=" -ml-24 w-64 h-44" src={matrix3} alt="grid"></img>
           <div className="flex">

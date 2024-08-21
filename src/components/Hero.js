@@ -3,7 +3,7 @@ import sofaImg from "../img/furniture/sofa1.png";
 import matrixImg from "../img/matrices/matrix.png";
 const Hero = () => {
   return (
-    <div className=" relative bg-emerald-900 flex">
+    <div id="hero" className=" relative bg-emerald-900 flex">
       <div className=" h-fit">
         <h1 className=" text-[33px] font-serif font-semibold text-white pt-32 ml-32 mr-5">
           Modern Interior Design Studio
